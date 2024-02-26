@@ -6,7 +6,7 @@ function initMap() {
       center: location
     });
   
-    var marker = new google.maps.marker.AdvancedMarkerElement({
+    var marker = new google.maps.Marker({
       position: location,
       map: map
     });

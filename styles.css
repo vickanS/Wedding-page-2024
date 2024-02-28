@@ -76,6 +76,10 @@ body {
   margin: 0 auto;
 }
 
+#header {
+  background-size: cover;
+}
+
 .headercontent {
   font-weight: 400;
   font-size: large;
@@ -91,5 +95,23 @@ min-height: 30vh;
 
 .praktiskt {
   font-size: 30px;
+}
+
+#OSA-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+#OSA-form,
+input {
+  display: flex;
+justify-content: center;
+}
+
+.location img {
+width: 300px;
+height: 350px;
 }
 }

@@ -8,12 +8,16 @@ body {
 }
 
 #header {
- background-image: url('Assets/pink-flowers-blue-sky-background.jpg');
+
+ background-image: url('Assets/pink-flowers-blue-sky-background.jpg'),
+ radial-gradient(circle at center, transparent, rgba(255, 255, 255, 0.8));
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-size: cover;
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
   height: 500px;
   margin-top: 0;
 }

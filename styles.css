@@ -31,8 +31,13 @@ body {
 }
 
 p {
-  text-align: center;
   font-size: larger;
+}
+
+main h2, main h3 {
+  font-family: 'Tangerine', sans-serif;
+  font-weight: bolder;
+  font-size: xx-large;
 }
 
 main {

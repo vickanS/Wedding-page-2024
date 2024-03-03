@@ -106,7 +106,7 @@ min-height: 30vh;
 
 #OSA-form {
   display: flex;
-  width: 300px;
+  width: 80%;
   justify-content: center;
   align-items: center;
   margin-bottom: 15px;

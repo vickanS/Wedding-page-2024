@@ -74,7 +74,11 @@ footer {
   font-size: 50px;
   color: rgb(172, 167, 167);
   text-align: center;
-  margin-top: 50px;
+  margin: 10vh;
+}
+
+.gifts {
+  margin-bottom: 10vh;
 }
 
   .map {

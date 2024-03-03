@@ -87,6 +87,11 @@ body {
   margin: 0 auto;
 }
 
+main {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
 #header {
   background-image: url('Assets/pink-flowers-blue-sky-background.jpg');
   background-size: cover;
@@ -102,8 +107,12 @@ p {
   font-size: larger;
 }
 
-main h2, main h3 {
-  font-size: xx-large;
+main h2 {
+  font-size: 50px;
+}
+
+main h3 {
+  font-size: 45px;
 }
 
 .Välkommen {

@@ -8,16 +8,11 @@ body {
 }
 
 #header {
-
- background-image: url('Assets/pink-flowers-blue-sky-background.jpg'),
- radial-gradient(circle at center, transparent, rgba(255, 255, 255, 0.8));
+  background-color: aqua;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
   height: 500px;
   margin-top: 0;
 }
@@ -30,6 +25,7 @@ body {
   font-family: 'Tangerine', sans-serif;
   font-weight: 700;
   font-size: xx-large;
+  text-shadow: 2px 2px 2px black;
   line-height: 10px;
   color: white;
 }
@@ -81,12 +77,14 @@ body {
 }
 
 #header {
+  background-image: url('Assets/pink-flowers-blue-sky-background.jpg');
   background-size: cover;
 }
 
 .headercontent {
   font-weight: 400;
   font-size: x-large;
+  text-shadow: 2px 2px 2px black;
 }
 
 p {

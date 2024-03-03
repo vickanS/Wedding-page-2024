@@ -8,7 +8,7 @@ body {
 }
 
 #header {
-  background-color: aqua;
+  background-color: rgb(203, 165, 204);
   display: flex;
   justify-content: center;
   align-items: center;

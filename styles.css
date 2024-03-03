@@ -8,7 +8,7 @@ body {
 }
 
 #header {
-  background: linear-gradient(to top, rgb(235, 69, 96) 20%, white 80%);
+  background: radial-gradient(circle, rgb(230, 147, 161) 5%, white 95%);
   display: flex;
   justify-content: center;
   align-items: center;

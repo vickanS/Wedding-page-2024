@@ -37,7 +37,8 @@ p {
 main h2, main h3 {
   font-family: 'Tangerine', sans-serif;
   font-weight: bolder;
-  font-size: xx-large;
+  font-size: 50px;
+  color: rgb(203, 165, 204);
 }
 
 main {
@@ -99,6 +100,10 @@ body {
 
 p {
   font-size: larger;
+}
+
+main h2, main h3 {
+  font-size: x-large;
 }
 
 .Välkommen {

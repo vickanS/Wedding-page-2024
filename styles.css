@@ -8,7 +8,7 @@ body {
 }
 
 #header {
-  background-color: rgb(203, 165, 204);
+  background: linear-gradient(to top, rgb(235, 69, 96) 20%, white 80%);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -68,6 +68,14 @@ footer {
   justify-content: center;
 }
 
+.leende {
+  font-family: 'Tangerine', sans-serif;
+  font-style: normal;
+  font-size: 50px;
+  color: rgb(172, 167, 167);
+  text-align: center;
+  margin-top: 50px;
+}
 
   .map {
     width: 100%;
@@ -115,11 +123,15 @@ margin-bottom: 75px;
 }
 
 .praktiskt {
-  font-size: 50px;
+  font-size: 40px;
   margin-left: 5px;
   margin-right: 5px;
 }
 
+.leende {
+  font-size: 40px;
+  margin-top: 50px;
+}
 .form-container iframe {
   height: 300px;
   width: 100%;

@@ -37,6 +37,7 @@ p {
 }
 
 section p {
+line-height: 27px;
   margin: 0;
   padding: 0;
 }

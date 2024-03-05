@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
 
 body {
@@ -34,13 +36,26 @@ p {
   font-size: larger;
 }
 
-main h2, main h3 {
+section p {
+  margin: 0;
+  padding: 0;
+}
+
+section h2 {
+  margin-bottom: 10px; 
+}
+
+main h2 {
   font-size: 30px;
   color: black;
 }
 
 main {
   margin-top: 150px;
+}
+
+.vigsel, .fest, .boende, .OSAinfo, .priserboende, .tal, .dressup {
+  margin-bottom: 10vh;
 }
 
 .Välkommen {

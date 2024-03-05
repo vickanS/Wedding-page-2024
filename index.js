@@ -6,8 +6,5 @@ function initMap() {
     zoom: 8
   });
 
-  var marker = new google.maps.Marker({
-    position: {lat: 56.64165, lng: 16.22625},
-    map: map
-  });
+
 }

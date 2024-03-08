@@ -167,7 +167,7 @@ p {
   grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
   justify-content: center;
   align-items: center;
-  margin-left: 25px;
+  margin-left: 10px;
 }
 
 .bilder1 img:nth-child(1) {

@@ -156,17 +156,34 @@ p {
   font-size: larger;
 }
 
-.bilder1 {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 10px;
-}
-
-img {
+.bilder1 img {
   width: 150px;
   height: 155px;
+}
+
+
+.bilder1 {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  justify-content: center;
+  align-items: center;
+  margin-left: 25px;
+}
+
+.bilder1 img:nth-child(1) {
+  order: 2;
+}
+.bilder1 img:nth-child(2) {
+  order: 3;
+}
+.bilder1 img:nth-child(3) {
+  order: 1;
+}
+.bilder1 img:nth-child(4) {
+  order: 4;
+}
+.bilder1 img:nth-child(5) {
+  order: 5;
 }
 
 main h2 {
